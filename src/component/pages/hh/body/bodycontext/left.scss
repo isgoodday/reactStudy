@@ -1,0 +1,70 @@
+.main-block{
+  display: flex;   
+    .avatar{
+        width: .64rem;
+        height: .9rem;
+        position: relative;
+        margin-top: .12rem;
+        padding-left: .1rem;
+        .default-img-bg{
+            width: 100%;
+            height: 100%;
+            img{
+                display: block;
+                height: .9rem;
+            }
+        }
+    }
+    .content-wrapper{
+        line-height: .22rem;
+      position: relative;
+        padding: .12rem .14rem .12rem 0;
+        font-size: .13rem;
+        color:#666666;
+        .line-ellipsis{
+            width: 2.2rem;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+        }
+        .content{
+            padding-left: .1rem;
+            .title{
+            font-size: .17rem;
+            font-weight: 700;
+            }
+        }
+        .button-block{
+            position: absolute;
+            right:-.4rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: .45rem;
+            height: .25rem;
+            background:#f03d37;
+            color: #ffffff;
+            border-radius:.04rem;
+            text-align: center;
+            line-height: .25rem;
+        }
+        .Nbutton-block{
+            position: absolute;
+            right:-.4rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: .45rem;
+            height: .25rem;
+            color: #ffffff;
+            border-radius:.04rem;
+            text-align: center;
+            line-height: .25rem;
+            background: #3c9fe6;
+        }
+        .grade{
+            font-weight: 700;
+            color: #faaf00;
+            font-size: .15rem;
+        }
+    }
+
+}

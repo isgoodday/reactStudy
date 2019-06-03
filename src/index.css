@@ -1,0 +1,13 @@
+html{
+    height: 100%;
+    font-size: 100px;
+}
+body {
+    height: 100%;
+    font-size: .16rem;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

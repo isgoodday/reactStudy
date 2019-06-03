@@ -1,0 +1,8 @@
+export const LEFT_MOVIE_LIST='LEFT_MOVIE_LIST';
+export const LEFT_MORE_MOVIE='LEFT_MORE_MOVIE';
+
+export const RIGHT_SIDER = 'RIGHT_SIDER';
+
+export const RIGHT_LIST=' RIGHT_LIST';
+
+export const RIGHT_MORE_LIST='RIGHT_MORE_LIST';
