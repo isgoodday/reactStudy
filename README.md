@@ -9,3 +9,4 @@
   - Swiper
   - Better-scroll
   - Ant Design
+  - lodash.js
