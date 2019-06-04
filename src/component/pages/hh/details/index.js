@@ -35,10 +35,13 @@ class Details extends Component {
              <Fragment>
                 {
                  // 判断props是否存在
-                    props ?
-                    <DetailsHeader data={props}
+                    props
+                    ?
+                    <DetailsHeader
+                    data={props}
                      people={this.people}
-                     ></DetailsHeader>
+                    >
+                    </DetailsHeader>
                     :null
                 }
                 
